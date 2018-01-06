@@ -78,5 +78,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: heroku
-  repo: https://intense-brook-16096.herokuapp.com/
+  repo: https://git.heroku.com/gentle-peak-59489.git
   message: Deployment of Hexo blog to Heroku

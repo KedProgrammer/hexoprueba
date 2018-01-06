@@ -1,0 +1,26 @@
+<html>
+<!-- Head tag -->
+<%- partial('_partial/head') %>
+<body>
+    <!-- Menu -->
+    <%- partial('_partial/menu') %>
+    <div class="acy adh container">
+        
+        <div class="row">
+            <div class="col-sm-3">
+                <%- partial('_partial/sidebar-left') %>  
+            </div>
+            <!-- Main Content -->
+            <div class="col-sm-6 blog-main">
+                <%- body %>
+            </div>
+            <!-- Sidebar -->
+            <div class="col-sm-3 blog-sidebar">
+                <%- partial('_partial/sidebar') %>
+            </div>
+        </div>
+    </div>
+   <!-- After footer scripts -->
+    <%- partial('_partial/after-footer') %>
+</body>
+</html>
